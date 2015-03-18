@@ -1,0 +1,41 @@
+
+/* COLORS */
+/* 
+purple: #BFAFC9 
+taupe: #B09B8D
+*/
+
+
+body {
+	font-family: "Baskerville";
+	background: #dbd7d8;
+}
+
+header, main {
+	max-width: 960px;
+	margin: 24px auto 0;
+}
+
+header {
+	text-align: center;
+	background: #B09B8D;
+	font-size: 1.25em;
+	padding: 12px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+div{
+	padding: 12px 0;
+}
+
+div + div {
+	margin-top: 12px;
+	border-top: 1px solid #CCC;
+}
+
+.error {
+	color: #F06233;
+}

@@ -1,0 +1,36 @@
+<html>
+
+<head>
+	<title>Cycle Oracle . Predict Your Period </title>
+	<link rel="stylesheet" type="text/css" href="lib/style.css">
+	<link rel="stylesheet" href="lib/date-range-picker/daterangepicker.css" />
+	<script src="lib/jquery-1.11.2.min.js"></script>
+	<script src="lib/moment.min.js"></script>
+	<script src="lib/scripts.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Cycle Oracle</h1>
+		<p>Predict your next period with this menstrual cycle calculator.</p>
+	</header>
+
+	<main id="calculator_form"><form name="calculator" action="">
+		<div>
+			<h2>Last Month</h2>
+			<span id="last-month"><input id="date-range0" size="20" value="" required> to <input id="date-range1" size="20" value="" required></span>
+		</div>
+		<div>
+			<h2>This Month</h2>
+	 		<span id="this-month"><input id="date-range2" size="20" value="" required> to <input id="date-range3" size="20" value="" required></span>
+		</div>
+		<div>
+			<input type="submit" value="Submit" class="button">
+			<p class="error">Sorry, there was an error. Please try again.</p>
+		</div>
+	</form></main>
+
+</body>
+
+</html>
