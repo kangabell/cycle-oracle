@@ -27,13 +27,17 @@ h1 {
 	font-size: 2em;
 }
 
-div{
+div {
 	padding: 12px 0;
 }
 
 div + div {
 	margin-top: 12px;
 	border-top: 1px solid #CCC;
+}
+
+span {
+	font-weight: bold;
 }
 
 .error {
