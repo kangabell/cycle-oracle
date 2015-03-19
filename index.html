@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>Cycle Oracle . Predict Your Period </title>
+	<title>Cycle Oracle . Period Calculator . Predict Your Next Menstrual Cycle</title>
 	<link rel="stylesheet" type="text/css" href="lib/style.css">
 	<link rel="stylesheet" href="lib/date-range-picker/daterangepicker.css" />
 	<script src="lib/jquery-1.11.2.min.js"></script>
@@ -13,20 +13,22 @@
 
 	<header>
 		<h1>Cycle Oracle</h1>
-		<p>Predict your next period with this menstrual cycle calculator.</p>
+		<p>Predict Your Next Menstrual Cycle</p>
 	</header>
 
-	<main id="calculator_form"><form name="calculator" action="">
+	<main><form>
 		<div>
-			<h2>Last Month</h2>
-			<input id="start-last" size="20" value="">
+			<label for="start-current">My last period began</label>
+	 		<input id="start-current">
 		</div>
 		<div>
-			<h2>This Month</h2>
-	 		<input id="start-current" size="20" value="">
+			<label for="start-last">The one before that began</label>
+			<input id="start-last">
 		</div>
 		<div>
 			<input type="submit" value="Submit" class="button">
+		</div>
+		<div>
 			<p class="error">Please complete all fields.</p>
 		</div>
 	</form></main>

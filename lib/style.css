@@ -1,45 +1,27 @@
 
-/* COLORS */
-/* 
-purple: #BFAFC9 
-taupe: #B09B8D
-*/
-
-
 body {
 	font-family: "Baskerville";
 	background: #dbd7d8;
-}
-
-header, main {
-	max-width: 960px;
-	margin: 24px auto 0;
-}
-
-header {
 	text-align: center;
-	background: #B09B8D;
-	font-size: 1.25em;
-	padding: 12px;
+	font-size: 18px;
+	margin-top: 2em;
 }
 
-h1 {
-	font-size: 2em;
+label {
+	display: block;
 }
 
-div {
-	padding: 12px 0;
+input {
+	padding: 0.5em;
+	margin: 0.25em;
+	border: 1px solid black;
 }
 
 div + div {
-	margin-top: 12px;
-	border-top: 1px solid #CCC;
-}
-
-span {
-	font-weight: bold;
+	margin-top: 1em;
 }
 
 .error {
 	color: #F06233;
+	border-color: #F06233;
 }
